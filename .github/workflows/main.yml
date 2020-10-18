@@ -22,6 +22,6 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           REPOSITORY_NAME: bkanawati/bkanawati.github.io
-          BRANCH: main
+          BRANCH: master
           FOLDER: dist
           CLEAN: true
