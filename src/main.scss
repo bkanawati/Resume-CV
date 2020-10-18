@@ -1,0 +1,159 @@
+@page {
+  size: A4;
+}
+
+@media print {
+  body {
+    width: 21cm;
+    height: 29.7cm;
+  }
+
+  img {
+    float: right;
+    height: 3em;
+  }
+
+  .second-page {
+    page-break-before: always;
+  }
+
+  footer {
+    display: none;
+  }
+
+}
+
+a {
+  color: unset;
+}
+
+.page {
+  background: white;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+header {
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-bottom: 0rem;
+  }
+
+  & + p {
+    margin-top: 0.25em;;
+  }
+}
+
+h2 {
+  padding-bottom: 0.1em;
+  border-bottom: solid 1px lightslategray;
+}
+
+hr {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+li {
+  margin: 0;
+}
+
+.work-experience {
+  list-style: none;
+
+  .timeline {
+    margin-bottom: .5em;
+    padding-left: 1em;
+    border-left-style: solid;
+    border-left-color: gray;
+    border-left-width: 5px;
+  }
+
+  .logo {
+    float: right;
+    margin: 0;
+
+    img {
+      display: block;
+      height: 50px;
+      max-width: 150px;
+    }
+  }
+}
+
+ul.timeline {
+  list-style-position: outside;
+  list-style-type: none;
+}
+
+ul.timeline section {
+  margin-bottom: .5em;
+  padding-left: 1em;
+  border-left-style: solid;
+  border-left-color: gray;
+  border-left-width: 5px;
+}
+
+
+.education {
+  hgroup h3 {
+    margin: 0;
+  }
+  p {
+    margin: 0;
+  }
+  padding: 0;
+  list-style: none;
+
+  .courses {
+    list-style: disc;
+    // padding: 0;
+  }
+}
+
+.skills {
+  flex: 2;
+  background: #eeeeee;
+  padding: 1em;
+}
+
+.more-info {
+  flex: 1;
+  padding: 1em;
+  font-size: 0.9em;
+}
+
+.interests {
+  padding: 0;
+  list-style: none;
+}
+
+.skill-set {
+  .level {
+    background-color: gray;
+    border-radius: 0.4rem;
+    color: #fff;
+    font-size: 0.5rem;
+    font-weight: 700;
+    padding: 3px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+    float: right;
+  }
+
+  p {
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+
+footer {
+  text-align: center;
+}
