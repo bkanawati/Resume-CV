@@ -120,7 +120,7 @@
       "name": "Main Backend Stack",
       "keywords": [
         "SQL (MySQL, Postgres)",
-        "maven",
+        "Maven",
         "Node"
       ]
     },
@@ -129,22 +129,22 @@
       "keywords": [
         "Angular",
         "RxJS",
-        "lodash",
+        "Lodash",
         "Angular Material",
         "Angular CLI",
-        "jQuery",
+        "JQuery",
         "Jasmine",
         "Webpack",
-        "npm",
-        "yarn"
+        "Npm",
+        "Yarn"
       ]
     },
     {
       "name": "Others Technologies",
       "keywords": [
-        "stencilJS",
-        "expressJS",
-        "momentJS",
+        "StencilJS",
+        "ExpressJS",
+        "MomentJS",
         "AJAX",
         "Bootstrap"
       ]
