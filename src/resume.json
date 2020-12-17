@@ -126,6 +126,7 @@
         "Angular Material",
         "Angular CLI",
         "JQuery",
+        "React",
         "Jasmine",
         "Webpack",
         "Npm",
@@ -157,7 +158,8 @@
       "name": "Software Management Tools",
       "keywords": [
         "Attlasian Tools (JIRA, Confluence)",
-        "GitHub"
+        "GitHub",
+        "Postman"
       ]
     },
     {
