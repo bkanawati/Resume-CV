@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Batul Kanawati",
-    "label": "Front-End Developer | Angular | TypeScript ",
+    "label": "UI Developer | Angular | TypeScript ",
     "picture": "",
     "email": "bmkanawati@gmail.com",
     "phone": "(714)767-1825",
@@ -31,7 +31,7 @@
   "work": [
     {
       "name": "Majid Al Futtaim",
-      "position": "Junior Front-End Developer - Payments",
+      "position": "UI Developer - Payments",
       "website": "https://majidalfuttaim.com",
       "location": "Dubai, United Arab Emirates",
       "description": "Majid Al Futtaim is the leading shopping mall, communities, retail and leisure pioneer across the Middle East, Africa and Asia.",
@@ -41,6 +41,7 @@
         "Worked on the development of an Angular based PG (payment gateway) portal that supports merchants and other internal users.",
         "Contributed in updating and migrating beam app components, a digital wallet application, and ensuring a smooth sunset plan.",
         "Created MAF Payment Gateway Components, UI components built to allow merchants to accept payments by integrating with the MAF payment API in the Javascript Framework of their choice.",
+        "Developed and implemented a UI responsive design for the (payment gateway) portal.",
         "Worked with fellow backend developers. Helped structure API's, include external API paths to the Serverless API Gateway and wrote database queries.",
         "Collaborated and engaged in development conversations with other fellow developers for better results and to build inclusive relationships."
       ]
