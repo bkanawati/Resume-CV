@@ -20,7 +20,7 @@ jobs:
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
-          GITHUB_TOKEN: ${{ secrets.RESUME_ACCESS_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           REPOSITORY_NAME: bkanawati/bkanawati.github.io
           BRANCH: master
           FOLDER: dist
